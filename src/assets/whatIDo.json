@@ -1,0 +1,45 @@
+{
+  "whatIDo": {
+    "1": "Being an amazing son",
+    "2": "Being an incredible brother",
+    "3": "Being a lovely grandson",
+    "4": "Being an extraordinary barista"
+  },
+  "recommendations": [
+    {
+      "name": "Neida",
+      "relation": "Girlfriend",
+      "message": "I highly recommend Alan as a boyfriend. He is truly one of a kind. Funny, smart, caring, a great listener and protective are just some of the qualities he brings into anyone's life. He makes the ones around him feel loved, safe and will always be down for an adventure. I will say, he can't cook but makes the best coffee your tastebuds will ever taste. He is genuinely a great guy with a huge heart who will always have your back and is willing to give it all for the right person. Anyone would be lucky to have Alan in their life."
+    },
+    {
+      "name": "MaryLu",
+      "relation": "Mother",
+      "message": "Hoy quiero recomendar al mejor hijo del mundo mundial 'MI DANNY' en su día de sus cumpleaños, hoy 20 de julio es una fecha muy especial donde celebro y agradezco a Dios por todas las bendiciones que me ha dado y la más importante y especial es que tuve la bendición de ser madre y tener en mis brazos al mejor hijo del mundo que me hizo sentir muchas emociones al tenerlo en mis brazos por primera vez y ver en sus ojos muchísimo amor y me hizo sentir inmensamente feliz. Hoy se ha convertido en un gran hombre hermoso con un gran corazón que no sé cómo le cabe en su pecho. Lo recomiendo por ser un gran ser humano honesto, dedicado, responsable, generoso, inteligente, correcto, muy tierno y cariñoso que piensa mucho en el bienestar de su familia y de todas las personas que le rodea. Yo Maria Luisa Vega lo admiro mucho y me siento muy orgullosa de mi hijito mi Danny me gusta mucho que lo que se propone lo logra por su inteligencia. Como buen colombiano prepara el mejor café del mundo mundial que deseo probar, me encanta verlo preparando los cafés y dan muchos antojos. Solo tiene 34 añitos pero una madures de 55 años ya que me ayuda a tomar decisiones y me da consejos con su madures me da tranquilidad en mi corazón.  Le pido a Dios que lo ayude a cumplir todos los deseos de su bello y gran corazón y que cumpla muchos años más llenos de amor, felicidad y mucha salud.  Te Amoooooooooooooo con todo mi corazón. Tu mamá muy orgullosa de ti."
+    },
+    {
+      "name": "Abuelita",
+      "relation": "Abuela",
+      "message": ""
+    },
+    {
+      "name": "Papa",
+      "relation": "Abuelo",
+      "message": ""
+    },
+    {
+      "name": "Tata",
+      "relation": "Tía",
+      "message": ""
+    },
+    {
+      "name": "Nataly",
+      "relation": "Cuñada",
+      "message": "I highly recommend Alan as a CUÑADO because he is one the most caring and understandable person I know. He is not only my brother in law but one of my bests friends as I call him my 'diary' Very easy to open up to and never get bored,always has an amazing energy and always has me laughing about the minimum things in life. He has such an enormes heart, We're extremely lucky to have him in our lives🫶🏼 ALAN 4EVER 💕"
+    },
+    {
+      "name": "Andrea",
+      "relation": "Hermana",
+      "message": ""
+    }
+  ]
+}
