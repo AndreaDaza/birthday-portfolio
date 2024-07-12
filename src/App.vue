@@ -19,7 +19,7 @@ const { lgAndUp } = useDisplay()
           <span
             :class="lgAndUp ? 'text-h1' : 'text-h2'"
             class="text-center text-white poppins-extrabold mb-10"
-            >Hello! My name is <span class="text-lime-darken-3">YOYOLINO</span></span
+            >Hello! My name is <span class="text-lime-darken-3">Alan</span></span
           >
           <span class="poppins-light">
             Lorem ipsum dolor sit amet consectetur. Augue vitae sit tempus quisque tincidunt nulla.

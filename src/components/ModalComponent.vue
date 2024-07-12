@@ -32,9 +32,3 @@ defineProps({
     </template>
   </v-dialog>
 </template>
-
-<style scoped>
-:deep(.v-overlay__content) {
-  flex-direction: row;
-}
-</style>

@@ -13,6 +13,7 @@ import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 import { faHeart } from '@fortawesome/free-solid-svg-icons'
 import 'vuetify/styles'
 import './assets/balloons.css'
+import './assets/envelope.css'
 import './assets/fonts.css'
 
 library.add(faTwitter, faHeart)

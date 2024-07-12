@@ -25,7 +25,3 @@ const isActive = ref(false)
     </div>
   </body>
 </template>
-
-<style scoped>
-@import '@/assets/envelope.css';
-</style>

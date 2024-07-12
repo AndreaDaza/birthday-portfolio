@@ -82,3 +82,7 @@
   transform: translateY(-50px);
   transition-delay: 0.5s;
 }
+
+.v-dialog > .v-overlay__content {
+  flex-direction: row !important;
+}
