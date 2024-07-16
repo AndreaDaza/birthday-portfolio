@@ -85,4 +85,5 @@
 
 .v-dialog > .v-overlay__content {
   flex-direction: row !important;
+  max-width: 500px;
 }
