@@ -12,6 +12,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import {
   faChildReaching,
   faFaceGrinSquint,
+  faHandPointer,
   faHeart,
   faMugSaucer
 } from '@fortawesome/free-solid-svg-icons'
@@ -20,7 +21,7 @@ import './assets/balloons.css'
 import './assets/envelope.css'
 import './assets/fonts.css'
 
-library.add(faHeart, faFaceGrinSquint, faMugSaucer, faChildReaching)
+library.add(faHeart, faFaceGrinSquint, faMugSaucer, faChildReaching, faHandPointer)
 
 const vuetify = createVuetify({
   components,

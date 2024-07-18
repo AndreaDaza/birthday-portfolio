@@ -18,7 +18,7 @@ const isActive = ref(false)
       <div class="lid one"></div>
       <div class="lid two"></div>
       <div class="envelope"></div>
-      <div class="letter" @click="isActive = true">
+      <div class="letter cursor-pointer" @click="isActive = true">
         <ModalComponent :content />
         <p class="poppins-light"><span class="poppins-bold">From:</span> {{ content.name }}</p>
       </div>
