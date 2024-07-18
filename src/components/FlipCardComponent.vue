@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import { ref } from 'vue'
+const flipped = ref(false)
+</script>
+
 <template>
   <div :class="flipped ? 'flip-container flipped' : 'flip-container'">
     <div class="flipper">
@@ -10,12 +15,6 @@
     </div>
   </div>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const flipped = ref(false)
-</script>
 
 <style type="text/css" scoped>
 .flip-container {

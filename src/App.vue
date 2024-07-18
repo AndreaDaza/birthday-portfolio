@@ -39,7 +39,7 @@ const { lgAndUp } = useDisplay()
         </p>
 
         <section class="d-flex flex-wrap justify-center ga-16 mt-6 pt-14">
-          <FlipCardComponent v-for="item in data.whatIDo" :key="item">
+          <FlipCardComponent v-for="item in data.whatIDo" :key="item.front">
             <template #front>
               <v-card class="mx-auto d-flex align-center justify-center" width="200" height="200">
                 <v-card-text class="text-center d-flex align-center justify-center poppins-light">
