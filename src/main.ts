@@ -9,14 +9,18 @@ import * as directives from 'vuetify/directives'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 /* add fontawesome core */
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { faTwitter } from '@fortawesome/free-brands-svg-icons'
-import { faHeart } from '@fortawesome/free-solid-svg-icons'
+import {
+  faChildReaching,
+  faFaceGrinSquint,
+  faHeart,
+  faMugSaucer
+} from '@fortawesome/free-solid-svg-icons'
 import 'vuetify/styles'
 import './assets/balloons.css'
 import './assets/envelope.css'
 import './assets/fonts.css'
 
-library.add(faTwitter, faHeart)
+library.add(faHeart, faFaceGrinSquint, faMugSaucer, faChildReaching)
 
 const vuetify = createVuetify({
   components,

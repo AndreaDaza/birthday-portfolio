@@ -1,9 +1,9 @@
 {
   "whatIDo": {
-    "1": "Being an amazing son",
-    "2": "Being an incredible brother",
-    "3": "Being a lovely grandson",
-    "4": "Being an extraordinary barista"
+    "1": { "front": "child-reaching", "back": "Being an amazing son" },
+    "2": { "front": "heart", "back": "Being a lovely boyfriend" },
+    "3": { "front": "mug-saucer", "back": "Being an extraordinary barista" },
+    "4": { "front": "face-grin-squint", "back": "Being a funny brother" }
   },
   "recommendations": [
     {
