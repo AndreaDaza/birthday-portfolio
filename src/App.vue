@@ -19,7 +19,7 @@ const showGift = ref(false)
 const correctSong2 = () => {
   if (
     song2.value.toLowerCase() === 'dia especial' ||
-    song2.value.toLowerCase() === 'da especial'
+    song2.value.toLowerCase() === 'día especial'
   ) {
     showGift.value = true
   }
