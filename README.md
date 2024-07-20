@@ -37,3 +37,12 @@ npm run build
 ```sh
 npm run lint
 ```
+
+### Credits
+
+Envelope: https://codepen.io/Coding-Star/pen/WNpbvwB
+\
+Balloons: https://codepen.io/bennettfeely/pen/DrNgoO
+\
+Flipping card: https://github.com/andersponders/vue-flip-card?tab=readme-ov-file
+
