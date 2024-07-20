@@ -6,12 +6,63 @@ import EnvelopeComponent from './components/EnvelopeComponent.vue'
 import FlipCardComponent from './components/FlipCardComponent.vue'
 const { lgAndUp } = useDisplay()
 const cardComponent = ref()
+const song2 = ref()
+const song = ref<String>()
+const car = ref<String>()
+
+const secondQuestion = ref(false)
+const thirdQuestion = ref(false)
 
 const displayHand = ref(true)
+const showGift = ref(false)
+
+const correctSong2 = () => {
+  if (
+    song2.value.toLowerCase() === 'dia especial' ||
+    song2.value.toLowerCase() === 'dia especial'
+  ) {
+    showGift.value = true
+  }
+}
+const correctSong = () => {
+  if (song.value?.toLowerCase() === 'viene y va') {
+    secondQuestion.value = true
+  }
+}
+const dreamCar = () => {
+  if (car.value?.toLowerCase() === 'tundra verde') {
+    thirdQuestion.value = true
+  }
+}
 </script>
 
 <template>
+  <div v-if="!showGift" class="">
+    <v-container class="poppins-light">
+      <h2 class="mb-3">Antes de entrar a la página tienes que contestar unas preguntas...</h2>
+      <v-text-field
+        v-if="!secondQuestion"
+        @keyup.enter="correctSong()"
+        label="Cómo continúa la siguiente canción: 'Y por qué... la vida _____ _ __' 🎵"
+        v-model="song"
+      ></v-text-field>
+      <v-text-field
+        v-if="secondQuestion && !thirdQuestion"
+        @keyup.enter="dreamCar()"
+        label="¿Cual carro es el que Neida quiere?"
+        v-model="car"
+      ></v-text-field>
+      <v-text-field
+        v-if="thirdQuestion"
+        @keyup.enter="correctSong2()"
+        label="Domingo... ___ ________ 🎵"
+        v-model="song2"
+      ></v-text-field>
+    </v-container>
+  </div>
+
   <v-parallax
+    v-else
     src="https://images.unsplash.com/photo-1527166420448-cf40007b5f38?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   >
     <v-container class="d-flex flex-column ga-10 mt-10">
@@ -142,5 +193,12 @@ const displayHand = ref(true)
   color: #4b6b3f3d;
   margin: 126px 150px 0 0;
   position: fixed;
+}
+
+.center-items {
+  display: flexbox;
+  align-items: center;
+  justify-content: middle;
+  justify-items: center;
 }
 </style>
